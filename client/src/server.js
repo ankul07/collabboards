@@ -1,1 +1,1 @@
-export const server = "http://localhost:8010";
+export const server = "https://collabboards.vercel.app";

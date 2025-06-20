@@ -1,5 +1,5 @@
 import { commonRequest } from "./commonRequest";
-const server = "http://localhost:8010";
+const server = "https://collabboards.vercel.app";
 
 export const createTask = async (data, id) => {
   return await commonRequest("POST", `${server}/boards/${id}/tasks`, data);
